@@ -95,7 +95,7 @@ php-–>/etc/apache2/mods-enabled/php7.2.conf中php_admin_value engine 改On
     * 追蹤者的email-正在登入的帳號  (email)
     * 被追蹤者的email-點擊頭貼的對象  (fEmail)
     
-### telegram bot
+### telegram bot & RFID
 /start:將對方的chatID抓進資料庫。 如果沒有註冊過，會要求對方到現場來註冊。
 會員追蹤的人進入會場後會發訊息通知!
 
