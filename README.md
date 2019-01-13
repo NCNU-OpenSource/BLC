@@ -93,9 +93,9 @@ php-–>/etc/apache2/mods-enabled/php7.2.conf中php_admin_value engine 改On
 
 ### 分工
 
-蔡佳軒:題目發想，RFID、telegram bot
+蔡佳軒：題目發想，RFID、telegram bot
 
-莊詠婷:題目發想，RFID、網站、DB架設
+莊詠婷：:題目發想，RFID、網站、DB架設
 
 #### 參考資料
 < python相關 >
