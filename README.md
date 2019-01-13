@@ -35,6 +35,7 @@ RFID接線Raspberry Pi
 
 #### 網站內容
 前置作業：
+
 開啟session-->php.ini中把session.auto_start改1 
 
 php-–>/etc/apache2/mods-enabled/php7.2.conf中php_admin_value engine 改On
