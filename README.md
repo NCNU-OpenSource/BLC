@@ -83,7 +83,7 @@ php-–>/etc/apache2/mods-enabled/php7.2.conf中php_admin_value engine 改On
     
     
     -->table:followers
-    * 第幾筆追蹤
+    * 第幾筆追蹤 (serno)
     * 追蹤者的email-正在登入的帳號  (email)
     * 被追蹤者的email-點擊頭貼的對象  (fEmail)
     
