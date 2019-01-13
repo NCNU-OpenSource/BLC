@@ -6,7 +6,7 @@ web Server: BLC會員網站 登入會員。
 
 dataBase: 存放會員資料(到現場、手動登入)。 
 
-一個健康快樂愛生活的會場:讓會員們可以在裡面交流、看書。 
+一個健康快樂愛生活的會場: 讓會員們可以在裡面交流、看書。 
 
 RFID: 進入會場前需要逼卡。
 
@@ -36,6 +36,11 @@ RFID接線Raspberry Pi
 #### 網站內容
 前置作業：
 
+sudo apt install apache2  
+
+sudo a2enmod rewrite
+sudo a2enmod userdir  
+
 開啟session-->php.ini中把session.auto_start改1 
 
 php-–>/etc/apache2/mods-enabled/php7.2.conf中php_admin_value engine 改On
@@ -59,14 +64,6 @@ php-–>/etc/apache2/mods-enabled/php7.2.conf中php_admin_value engine 改On
         * 註冊:只能在現場註冊
         * 登入(login.html):在進入會員服務或個人頁面之前，若還沒登入過，必須登入
         ![](https://i.imgur.com/sCvwgfh.jpg)
-##### 方法
-sudo apt install apache2  
-
-更改
-
-apache2：用userdir的module讀取家目錄中public_html的內容  
-sudo a2enmod rewrite
-sudo a2enmod userdir  
 
 #### DataBase (MySQL)
 註：使用者帳號要開放任意主機(%)
@@ -102,17 +99,20 @@ sudo a2enmod userdir
 
 #### 參考資料
 < python相關 >
+
 https://codertw.com/%E7%A8%8B%E5%BC%8F%E8%AA%9E%E8%A8%80/364537/
 http://www.runoob.com/python/python-mysql.html
 https://blog.gtwang.org/programming/python-mysqldb-connect-mysql-database-tutorial/
 https://segmentfault.com/q/1010000007979637
 
 < RFID >
+
 https://blog.csdn.net/qq_26093511/article/details/51385079
 https://sites.google.com/site/jonasdigiclass/gong-zuo-ji-lu/rfidxieruziliaodaokapian
 https://github.com/mxgxw/MFRC522-python
 
 < Telegram_bot >
+
 https://core.telegram.org/bots/api
 https://core.telegram.org/bots
 https://www.instructables.com/id/Set-up-Telegram-Bot-on-Raspberry-Pi/
