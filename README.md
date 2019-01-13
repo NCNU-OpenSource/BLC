@@ -117,7 +117,7 @@ php-–>/etc/apache2/mods-enabled/php7.2.conf中php_admin_value engine 改On
     * 在他下面加上 `dtoverlay=spi-bcm2708`
     * pi 重新開機
     
-    `sudo reboot now`
+      `sudo reboot now`
     
     * 確認是不是安裝成成功
     
