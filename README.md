@@ -109,9 +109,9 @@ php-–>/etc/apache2/mods-enabled/php7.2.conf中php_admin_value engine 改On
    |杜邦線顏色|設備|GPIO編號|
    |---|---|---|
    |粉紅|LED正|11|
-   |棕色|LED負|14 (GND)|
+   |棕色|LED負|GND(14)|
    |白色|Buzzer正|7|
-   |灰色|Buzzer負|9 (GND)|
+   |灰色|Buzzer負|GND(9)|
    
    ![](https://i.imgur.com/QphTzlw.png)
    ![](https://i.imgur.com/1aWLXpS.png)
