@@ -105,16 +105,22 @@ php-–>/etc/apache2/mods-enabled/php7.2.conf中php_admin_value engine 改On
 
 ### 前置作業
 * 打開 pi 的 SPI
-    raspi-config
+    
+    `raspi-config`
 * 重新開機 pi
+
+   `sudo reboot now`
+
 * 設定 config.txt 增加 spi模組
     * sudo vim /boot/config.txt
     * 找到 dtparam=spi=on
     * 在他下面加上 dtoverlay=spi-bcm2708
     * pi 重新開機
-    sudo reboot now
+    
+    `sudo reboot now`
     * 確認是不是安裝成成功
     lsmod | grep spi
+    
     查詢結果出現 spi_bcm2835 表示成功
 * 安裝 python-dev
     sudo apt-get install python-dev
