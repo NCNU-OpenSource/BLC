@@ -165,8 +165,8 @@ php-–>/etc/apache2/mods-enabled/php7.2.conf中php_admin_value engine 改On
 ## Telegram Bot
 telegram_bot的功能運作, 執行 `telegram_bot_exe.py`
 
-* /start: 已經註冊過的會員的chatID到資料庫
-   若尚未註冊則會發送"請到服務點註冊"的提醒
+* /start: 增加已經註冊過的會員的chatID到資料庫
+   若尚未註冊則會發送"請先到服務點註冊"的提醒
 
 ### 前置作業
 * 在telegram 加 BotFather 好友
