@@ -104,7 +104,7 @@ php-–>/etc/apache2/mods-enabled/php7.2.conf中php_admin_value engine 改On
    |藍|GND|接20
    |紫|RST|接22
    |黑|3.3V|接1
-
+   ![](https://i.imgur.com/QphTzlw.png)
    ###### 其他設備接線Raspberry Pi
    |杜邦線顏色|設備|GPIO編號|
    |---|---|---|
