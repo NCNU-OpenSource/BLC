@@ -153,7 +153,7 @@ php-–>/etc/apache2/mods-enabled/php7.2.conf中php_admin_value engine 改On
 * db = 目標資料庫
 
 ## Telegram Bot
-傳送訊息給註冊的會員, 執行 `telegram_bot_exe.py`
+telegram_bot的功能運作, 執行 `telegram_bot_exe.py`
 
 * /start: 已經註冊過的會員的chatID到資料庫
    若尚未註冊則會發送"請到服務句點註冊"的提醒
