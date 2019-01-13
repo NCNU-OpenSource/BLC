@@ -48,6 +48,8 @@ php-–>/etc/apache2/mods-enabled/php7.2.conf中php_admin_value engine 改On
 
 註：connDB.php可自行設定主機名稱、使用者帳號密碼
 
+註：放會員照片時，需命名為該會員的帳號(信箱).jpg，資料夾在/web/pictures上。
+
 * 架設網站 (使用lamp-server) 來源:https://magiclen.org/lamp/
     * 基本頁面設計 (模板來源 https://www.free-css.com/free-css-templates?start=24)
         * 主頁面Home(index.html):放最新消息
