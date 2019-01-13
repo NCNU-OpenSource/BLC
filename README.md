@@ -95,7 +95,9 @@ sudo a2enmod userdir
 會員追蹤的人進入會場後會發訊息通知!
 
 ### 分工
+
 蔡佳軒:題目發想，RFID、telegram bot
+
 莊詠婷:題目發想，RFID、網站、DB架設
 
 #### 參考資料
