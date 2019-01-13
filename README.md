@@ -28,6 +28,10 @@ https://drive.google.com/open?id=1y0jWnlyWXwfEY9d-lTbQ3eZmlgjkXodv
 
 * 杜邦線: 11條
 
+![](https://i.imgur.com/yi59uNa.jpg)
+
+![](https://i.imgur.com/lj0w4Mr.jpg)
+
 ## 網站內容
 前置作業：
 
