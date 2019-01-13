@@ -106,22 +106,31 @@ php-–>/etc/apache2/mods-enabled/php7.2.conf中php_admin_value engine 改On
 < python相關 >
 
 https://codertw.com/%E7%A8%8B%E5%BC%8F%E8%AA%9E%E8%A8%80/364537/
+
 http://www.runoob.com/python/python-mysql.html
+
 https://blog.gtwang.org/programming/python-mysqldb-connect-mysql-database-tutorial/
+
 https://segmentfault.com/q/1010000007979637
 
 < RFID >
 
 https://blog.csdn.net/qq_26093511/article/details/51385079
+
 https://sites.google.com/site/jonasdigiclass/gong-zuo-ji-lu/rfidxieruziliaodaokapian
+
 https://github.com/mxgxw/MFRC522-python
+
 http://atceiling.blogspot.com/2017/02/raspberry-pi-rfid.html
 
 < Telegram_bot >
 
 https://core.telegram.org/bots/api
+
 https://core.telegram.org/bots
+
 https://www.instructables.com/id/Set-up-Telegram-Bot-on-Raspberry-Pi/
+
 https://blog.sean.taipei/2017/05/telegram-bot
 
 
