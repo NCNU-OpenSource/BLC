@@ -71,6 +71,7 @@ sudo a2enmod userdir
 #### DataBase (MySQL)
 註：使用者帳號要開放任意主機(%)
 註：()內為在db的欄位名稱
+
     --> table:customers
     * 姓名(name)
     * 生日(birthday)
