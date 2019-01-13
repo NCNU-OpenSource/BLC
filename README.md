@@ -99,6 +99,10 @@ php-–>/etc/apache2/mods-enabled/php7.2.conf中php_admin_value engine 改On
     * 被追蹤者的email-點擊頭貼的對象  (fEmail)
 ## RFID
 核對會員卡,確認是否擁有入場的資格,會在逼卡後更改持卡人狀態(location),並透過 telegram_bot 通知持卡人追隨者們
+
+* 在 MFRC522-python/ 執行
+    `python BLC_rfid.py`
+
 ### 前置作業
 * 打開 pi 的 SPI
     raspi-config
