@@ -13,7 +13,7 @@ BLC為一個男性與男性的交友網站，而它也不單單是個網站，�
 ## 實測影片
 https://drive.google.com/open?id=1y0jWnlyWXwfEY9d-lTbQ3eZmlgjkXodv
 
-#### 所需材料
+## 所需材料
 web Server: BLC會員網站 登入會員。 
 
 dataBase: 存放會員資料(到現場、手動登入)。 
@@ -34,7 +34,7 @@ RFID接線Raspberry Pi
 |紫|RST|接22
 |黑|3.3V|接1
 
-#### 網站內容
+### 網站內容
 前置作業：
 
 sudo apt install apache2  
@@ -70,7 +70,7 @@ php-–>/etc/apache2/mods-enabled/php7.2.conf中php_admin_value engine 改On
         * 登入(login.html):在進入會員服務或個人頁面之前，若還沒登入過，必須登入
         ![](https://i.imgur.com/sCvwgfh.jpg)
 
-#### DataBase (MySQL)
+## DataBase (MySQL)
 註：使用者帳號要開放任意主機(%)
 註：()內為在db的欄位名稱
 
@@ -96,13 +96,13 @@ php-–>/etc/apache2/mods-enabled/php7.2.conf中php_admin_value engine 改On
 /start:將對方的chatID抓進資料庫。 如果沒有註冊過，會要求對方到現場來註冊。
 會員追蹤的人進入會場後會發訊息通知!
 
-### 分工
+## 分工
 
 蔡佳軒：題目發想，RFID、telegram bot
 
 莊詠婷：:題目發想，RFID、網站、DB架設
 
-#### 參考資料
+## 參考資料
 < python相關 >
 
 https://codertw.com/%E7%A8%8B%E5%BC%8F%E8%AA%9E%E8%A8%80/364537/
