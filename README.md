@@ -40,7 +40,7 @@ https://drive.google.com/open?id=1y0jWnlyWXwfEY9d-lTbQ3eZmlgjkXodv
 |紫|RST|接22
 |黑|3.3V|接1
 
-### 網站內容
+## 網站內容
 前置作業：
 
 sudo apt install apache2  
@@ -76,7 +76,7 @@ php-–>/etc/apache2/mods-enabled/php7.2.conf中php_admin_value engine 改On
         * 登入(login.html):在進入會員服務或個人頁面之前，若還沒登入過，必須登入
         ![](https://i.imgur.com/sCvwgfh.jpg)
 
-### DataBase (MySQL)
+## DataBase (MySQL)
 註：使用者帳號要開放任意主機(%)
 註：()內為在db的欄位名稱
 
@@ -98,7 +98,7 @@ php-–>/etc/apache2/mods-enabled/php7.2.conf中php_admin_value engine 改On
     * 追蹤者的email-正在登入的帳號  (email)
     * 被追蹤者的email-點擊頭貼的對象  (fEmail)
     
-### telegram bot & RFID
+## telegram bot & RFID
 /start:將對方的chatID抓進資料庫。 如果沒有註冊過，會要求對方到現場來註冊。
 會員追蹤的人進入會場後會發訊息通知!
 
