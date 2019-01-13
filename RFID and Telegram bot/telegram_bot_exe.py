@@ -7,7 +7,7 @@ import os
 import MySQLdb
 
 
-bot = telepot.Bot('731117699:AAGjKzCCC-GHoMJDVEQ29XFAVrQTH9_yimQ') # put yout teleram_bot token
+bot = telepot.Bot('') # put yout teleram_bot token
 
 def handle(msg):
     chat_id = str(msg['chat']['id'])
