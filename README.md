@@ -10,6 +10,9 @@ BLC為一個男性與男性的交友網站，而它也不單單是個網站，�
 
 記住！我們是一個健康、正常、促進男性與男性交流的社團！
 
+## 實測影片
+https://drive.google.com/open?id=1y0jWnlyWXwfEY9d-lTbQ3eZmlgjkXodv
+
 #### 所需材料
 web Server: BLC會員網站 登入會員。 
 
