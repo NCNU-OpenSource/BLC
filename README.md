@@ -28,26 +28,6 @@ https://drive.google.com/open?id=1y0jWnlyWXwfEY9d-lTbQ3eZmlgjkXodv
 
 * 杜邦線: 7 + 2 + 2 (依設備而定）
 
-###### RFID接線Raspberry Pi
-
-|杜邦線顏色||GPIO編號|
-|---|---|---|
-|紅|SDA|接24|
-|橘|SCK |接23|
-|黃|MOSI| 接19
-|綠|MISO|接21
-|藍|GND|接20
-|紫|RST|接22
-|黑|3.3V|接1
-
-###### 其他設備接線Raspberry Pi
-|杜邦線顏色|設備|GPIO編號|
-|---|---|---|
-|粉紅|LED正|11|
-|棕色|LED負|GND|
-|白色|Buzzer正|7|
-|灰色|Buzzer負|GND|
-
 ## 網站內容
 前置作業：
 
@@ -113,7 +93,27 @@ php-–>/etc/apache2/mods-enabled/php7.2.conf中php_admin_value engine 改On
 
 ### 前置作業
 * 設備接線
-![](https://i.imgur.com/1aWLXpS.png)
+   ###### RFID接線Raspberry Pi
+
+   |杜邦線顏色||GPIO編號|
+   |---|---|---|
+   |紅|SDA|接24|
+   |橘|SCK |接23|
+   |黃|MOSI| 接19
+   |綠|MISO|接21
+   |藍|GND|接20
+   |紫|RST|接22
+   |黑|3.3V|接1
+
+   ###### 其他設備接線Raspberry Pi
+   |杜邦線顏色|設備|GPIO編號|
+   |---|---|---|
+   |粉紅|LED正|11|
+   |棕色|LED負|GND|
+   |白色|Buzzer正|7|
+   |灰色|Buzzer負|GND|
+   
+   ![](https://i.imgur.com/1aWLXpS.png)
 * 打開 pi 的 SPI
     
     `raspi-config`
