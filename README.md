@@ -105,8 +105,6 @@ php-–>/etc/apache2/mods-enabled/php7.2.conf中php_admin_value engine 改On
    |紫|RST|接22
    |黑|3.3V|接1
    
-   ![](https://i.imgur.com/QphTzlw.png)
-   
    ###### 其他設備接線Raspberry Pi
    |杜邦線顏色|設備|GPIO編號|
    |---|---|---|
@@ -115,6 +113,7 @@ php-–>/etc/apache2/mods-enabled/php7.2.conf中php_admin_value engine 改On
    |白色|Buzzer正|7|
    |灰色|Buzzer負|GND|
    
+   ![](https://i.imgur.com/QphTzlw.png)
    ![](https://i.imgur.com/1aWLXpS.png)
 * 打開 pi 的 SPI
     
