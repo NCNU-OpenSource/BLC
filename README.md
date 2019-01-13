@@ -101,7 +101,48 @@ php-–>/etc/apache2/mods-enabled/php7.2.conf中php_admin_value engine 改On
 ## telegram bot & RFID
 /start:將對方的chatID抓進資料庫。 如果沒有註冊過，會要求對方到現場來註冊。
 會員追蹤的人進入會場後會發訊息通知!
+## RFID
+核對會員卡,確認是否擁有入場的資格,會在逼卡後更改持卡人狀態(location),並透過 telegram_bot 通知持卡人追隨者們
+### 前置作業
+* 打開 pi 的 SPI
+    raspi-config
+* 重新開機 pi
+* 設定 config.txt 增加 spi模組
+    * sudo vim /boot/config.txt
+    * 找到 dtparam=spi=on
+    * 在他下面加上 dtoverlay=spi-bcm2708
+    * pi 重新開機
+    sudo reboot now
+    * 確認是不是安裝成成功
+    lsmod | grep spi
+    查詢結果出現 spi_bcm2835 表示成功
+* 安裝 python-dev
+    sudo apt-get install python-dev
+* 取得SPI-py程式碼
+    * git clone https://github.com/lthiery/SPI-Py.git
+    * cd SPI-Py
+    * sudo python setup.py install
+    * cd
+* 安裝 MFRC522-python
+    * git clone https://github.com/mxgxw/MFRC522-python.git
 
+* 將 BLC_rfid.py telegram_bot.py connDB.py 放到資料夾 MFRC522-python/（~/MFRC522-python/)
+
+* 更改 telegram_bot.py 的 telepot.Bot() 為要控制的 bot token
+
+* 更改 connDB.py 的 host, user, psswd, db 為目標資料庫
+
+### BLC_rfid.py
+控制 RFID 的感測
+
+* 取得卡號( 卡片 sector 0 )並驗證
+* 連線資料庫,取得持卡人追隨者的 chat_ID
+* 透過bot發送持卡人位置狀態給追隨者
+
+### telegram_bot.py
+建立與 telegram_bot 的連線
+
+* 記得更改: bot = telepot.Bot( 你的telegram_bot token )
 ## 分工
 
 蔡佳軒：題目發想，RFID、telegram bot
