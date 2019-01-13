@@ -78,6 +78,7 @@ sudo a2enmod userdir
     * 卡號 (cID)
     * telegram辨識 (chatID)
     * 會員自我介紹 (intro)  //有字數限制
+    * 在不在會場(location)  //  %2=1的話表示在會場，%2=0的話表示不在場
     
     
     -->table:followers
