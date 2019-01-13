@@ -3,7 +3,7 @@ import telepot
 import MySQLdb
 
 
-bot = telepot.Bot('731117699:AAGjKzCCC-GHoMJDVEQ29XFAVrQTH9_yimQ') # put your telegram_bot token
+bot = telepot.Bot('') # put your telegram_bot token
 
 
 # Telegram send msg to cID's tracker
