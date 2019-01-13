@@ -139,6 +139,22 @@ php-–>/etc/apache2/mods-enabled/php7.2.conf中php_admin_value engine 改On
 建立與 telegram_bot 的連線
 
 * 記得更改: bot = telepot.Bot( 你的telegram_bot token )
+
+### connDB.py
+連線 phpMyadmin, 須更改的參數...
+
+* host = 目標資料庫 IP
+* user = 使用者名稱
+* passwd = 該使用者密碼
+* db = 目標資料庫
+
+## Telegram Bot
+### 前置作業
+* 在telegram 加 BotFather 好友
+* 輸入 /newbot 建立新的 telegram_bot, 設定bot的 名稱 & ID
+![](https://i.imgur.com/cJKsPnx.png)
+
+
 ## 分工
 
 蔡佳軒：題目發想，RFID、telegram bot
