@@ -118,7 +118,7 @@ php-–>/etc/apache2/mods-enabled/php7.2.conf中php_admin_value engine 改On
    |灰色|Buzzer負|GND (9)|
    
    ![](https://i.imgur.com/QphTzlw.png)
-   ![](https://i.imgur.com/1aWLXpS.png)
+   ![](https://i.imgur.com/jkGqDHd.png)
 * 打開 pi 的 SPI
     
     `raspi-config`--> interface --> SPI --> 打開 --> YES
