@@ -115,6 +115,7 @@ https://segmentfault.com/q/1010000007979637
 https://blog.csdn.net/qq_26093511/article/details/51385079
 https://sites.google.com/site/jonasdigiclass/gong-zuo-ji-lu/rfidxieruziliaodaokapian
 https://github.com/mxgxw/MFRC522-python
+http://atceiling.blogspot.com/2017/02/raspberry-pi-rfid.html
 
 < Telegram_bot >
 
