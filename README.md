@@ -40,6 +40,14 @@ https://drive.google.com/open?id=1y0jWnlyWXwfEY9d-lTbQ3eZmlgjkXodv
 |紫|RST|接22
 |黑|3.3V|接1
 
+###### 其他設備接線Raspberry Pi
+|杜邦線顏色|設備|GPIO編號|
+|---|---|---|
+|粉紅|LED正|11|
+|棕色|LED負|GND|
+|白色|Buzzer正|7|
+|灰色|Buzzer負|GND|
+
 ## 網站內容
 前置作業：
 
