@@ -112,6 +112,8 @@ php-–>/etc/apache2/mods-enabled/php7.2.conf中php_admin_value engine 改On
     `python BLC_rfid.py`
 
 ### 前置作業
+* 設備接線
+![](https://i.imgur.com/1aWLXpS.png)
 * 打開 pi 的 SPI
     
     `raspi-config`
