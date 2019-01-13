@@ -1,7 +1,7 @@
 <?php
-    $host = '192.168.1.66'; #資料庫的UP位址
-    $user = 'root'; #使用者帳號
-    $passw = '123456789';  #使用者密碼
+    $host = ''; #資料庫的UP位址
+    $user = ''; #使用者帳號
+    $passw = '';  #使用者密碼
     $dbName = 'blc';  #資料庫名稱
 
     $db_link=@mysqli_connect($host, $user, $passw, $dbName);
