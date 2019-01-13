@@ -119,24 +119,25 @@ php-–>/etc/apache2/mods-enabled/php7.2.conf中php_admin_value engine 改On
     
     `sudo reboot now`
     * 確認是不是安裝成成功
-    lsmod | grep spi
+    `lsmod | grep spi`
     
     查詢結果出現 spi_bcm2835 表示成功
 * 安裝 python-dev
-    sudo apt-get install python-dev
+
+    `sudo apt-get install python-dev`
 * 取得SPI-py程式碼
-    * git clone https://github.com/lthiery/SPI-Py.git
-    * cd SPI-Py
-    * sudo python setup.py install
-    * cd
+    * `git clone https://github.com/lthiery/SPI-Py.git`
+    * `cd SPI-Py`
+    * `sudo python setup.py install`
+    * `cd`
 * 安裝 MFRC522-python
-    * git clone https://github.com/mxgxw/MFRC522-python.git
+    * `git clone https://github.com/mxgxw/MFRC522-python.git`
 
-* 將 BLC_rfid.py telegram_bot.py connDB.py 放到資料夾 MFRC522-python/（~/MFRC522-python/)
+* 將 `BLC_rfid.py` `telegram_bot.py` `connDB.py` 放到資料夾 MFRC522-python/（~/MFRC522-python/)
 
-* 更改 telegram_bot.py 的 telepot.Bot() 為要控制的 bot token
+* 更改 `telegram_bot.py` 的 telepot.Bot() 為要控制的 bot token
 
-* 更改 connDB.py 的 host, user, psswd, db 為目標資料庫
+* 更改 `connDB.py` 的 host, user, psswd, db 為目標資料庫
 
 ### BLC_rfid.py
 控制 RFID 的感測
