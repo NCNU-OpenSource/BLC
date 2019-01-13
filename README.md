@@ -187,7 +187,7 @@ telegram_bot的功能運作, 執行 `telegram_bot_exe.py`
 ![](https://i.imgur.com/HRs03YE.png)
 ### 前置作業
 * 在telegram 加 BotFather 好友
-* 輸入 /newbot 建立新的 telegram_bot, 設定bot的 名稱 & ID
+* 輸入 /newbot 建立新的 telegram_bot, 設定bot的 名稱 & userName
 ![](https://i.imgur.com/ohhwuV3.png)
 * 更改 telegram_bot_exe.py: telepot.Bot() 的 token
 (telegram_bot.py 也別忘記！）
