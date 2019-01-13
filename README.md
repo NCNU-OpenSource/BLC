@@ -23,6 +23,7 @@ dataBase: 存放會員資料(到現場、手動登入)。
 RFID: 進入會場前需要逼卡。
 
 RFID接線Raspberry Pi
+
 紅：SDA     接24  
 
 橘：SCK     接23  
