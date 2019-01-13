@@ -121,9 +121,9 @@ php-–>/etc/apache2/mods-enabled/php7.2.conf中php_admin_value engine 改On
     
     * 確認是不是安裝成成功
     
-    `lsmod | grep spi`
-    
-    查詢結果出現 spi_bcm2835 表示成功
+       `lsmod | grep spi`
+
+       查詢結果出現 spi_bcm2835 表示成功
 * 安裝 python-dev
 
     `sudo apt-get install python-dev`
