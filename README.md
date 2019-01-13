@@ -62,8 +62,10 @@ php-–>/etc/apache2/mods-enabled/php7.2.conf中php_admin_value engine 改On
 ##### 方法
 sudo apt install apache2  
 
-apache2：用userdir的module讀取家目錄中public_html的內容  
+更改
 
+apache2：用userdir的module讀取家目錄中public_html的內容  
+sudo a2enmod rewrite
 sudo a2enmod userdir  
 
 #### DataBase (MySQL)
@@ -86,3 +88,31 @@ sudo a2enmod userdir
     * 第幾筆追蹤
     * 追蹤者的email-正在登入的帳號  (email)
     * 被追蹤者的email-點擊頭貼的對象  (fEmail)
+    
+### telegram bot
+/start:將對方的chatID抓進資料庫。 如果沒有註冊過，會要求對方到現場來註冊。
+會員追蹤的人進入會場後會發訊息通知!
+
+### 分工
+蔡佳軒:題目發想，RFID、telegram bot
+莊詠婷:題目發想，RFID、網站、DB架設
+
+#### 參考資料
+< python相關 >
+https://codertw.com/%E7%A8%8B%E5%BC%8F%E8%AA%9E%E8%A8%80/364537/
+http://www.runoob.com/python/python-mysql.html
+https://blog.gtwang.org/programming/python-mysqldb-connect-mysql-database-tutorial/
+https://segmentfault.com/q/1010000007979637
+
+< RFID >
+https://blog.csdn.net/qq_26093511/article/details/51385079
+https://sites.google.com/site/jonasdigiclass/gong-zuo-ji-lu/rfidxieruziliaodaokapian
+https://github.com/mxgxw/MFRC522-python
+
+< Telegram_bot >
+https://core.telegram.org/bots/api
+https://core.telegram.org/bots
+https://www.instructables.com/id/Set-up-Telegram-Bot-on-Raspberry-Pi/
+https://blog.sean.taipei/2017/05/telegram-bot
+
+
