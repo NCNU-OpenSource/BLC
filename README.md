@@ -97,10 +97,6 @@ php-–>/etc/apache2/mods-enabled/php7.2.conf中php_admin_value engine 改On
     * 第幾筆追蹤 (serno)
     * 追蹤者的email-正在登入的帳號  (email)
     * 被追蹤者的email-點擊頭貼的對象  (fEmail)
-    
-## telegram bot & RFID
-/start:將對方的chatID抓進資料庫。 如果沒有註冊過，會要求對方到現場來註冊。
-會員追蹤的人進入會場後會發訊息通知!
 ## RFID
 核對會員卡,確認是否擁有入場的資格,會在逼卡後更改持卡人狀態(location),並透過 telegram_bot 通知持卡人追隨者們
 ### 前置作業
