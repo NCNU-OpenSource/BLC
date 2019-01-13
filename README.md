@@ -121,10 +121,10 @@ php-–>/etc/apache2/mods-enabled/php7.2.conf中php_admin_value engine 改On
    ![](https://i.imgur.com/1aWLXpS.png)
 * 打開 pi 的 SPI
     
-    `raspi-config`
-* 重新開機 pi
+    `raspi-config`--> interface --> SPI --> 打開 --> YES
+   * 重新開機 pi
 
-   `sudo reboot now`
+      `sudo reboot now`
 
 * 設定 config.txt 增加 spi模組
     * `sudo vim /boot/config.txt`
@@ -151,7 +151,7 @@ php-–>/etc/apache2/mods-enabled/php7.2.conf中php_admin_value engine 改On
 * 安裝 MFRC522-python
     * `git clone https://github.com/mxgxw/MFRC522-python.git`
 
-* 將 `BLC_rfid.py` `telegram_bot.py` `connDB.py` 放到資料夾 MFRC522-python/（~/MFRC522-python/)
+* 將 `BLC_rfid.py` `telegram_bot.py` `connDB.py` 並放到放到資料夾 MFRC522-python/（~/MFRC522-python/)
 
 * 更改 `telegram_bot.py` 的 telepot.Bot() 為要控制的 bot token
 
