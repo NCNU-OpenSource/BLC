@@ -112,19 +112,22 @@ php-–>/etc/apache2/mods-enabled/php7.2.conf中php_admin_value engine 改On
    `sudo reboot now`
 
 * 設定 config.txt 增加 spi模組
-    * sudo vim /boot/config.txt
+    * `sudo vim /boot/config.txt`
     * 找到 dtparam=spi=on
-    * 在他下面加上 dtoverlay=spi-bcm2708
+    * 在他下面加上 `dtoverlay=spi-bcm2708`
     * pi 重新開機
     
     `sudo reboot now`
+    
     * 確認是不是安裝成成功
+    
     `lsmod | grep spi`
     
     查詢結果出現 spi_bcm2835 表示成功
 * 安裝 python-dev
 
     `sudo apt-get install python-dev`
+
 * 取得SPI-py程式碼
     * `git clone https://github.com/lthiery/SPI-Py.git`
     * `cd SPI-Py`
@@ -163,7 +166,7 @@ php-–>/etc/apache2/mods-enabled/php7.2.conf中php_admin_value engine 改On
 telegram_bot的功能運作, 執行 `telegram_bot_exe.py`
 
 * /start: 已經註冊過的會員的chatID到資料庫
-   若尚未註冊則會發送"請到服務句點註冊"的提醒
+   若尚未註冊則會發送"請到服務點註冊"的提醒
 
 ### 前置作業
 * 在telegram 加 BotFather 好友
