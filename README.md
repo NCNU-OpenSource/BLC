@@ -22,11 +22,11 @@ https://drive.google.com/open?id=1y0jWnlyWXwfEY9d-lTbQ3eZmlgjkXodv
 
 * RFID: 進入會場前需要逼卡。
 
-* 蜂鳴器
+* 蜂鳴器*1
 
-* LED燈
+* LED燈*1
 
-* 杜邦線: 7 + 2 + 2 (依設備而定）
+* 杜邦線: 11條
 
 ## 網站內容
 前置作業：
